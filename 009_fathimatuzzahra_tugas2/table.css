@@ -1,0 +1,17 @@
+*{
+    font-family: Poppins;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+h1, th, td {
+    padding: 10px;
+    text-align: center;
+}
