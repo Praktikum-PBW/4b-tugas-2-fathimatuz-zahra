@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran Mahasiswa Baru</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <div class="header">
+    <h1>Pendaftaran Mahasiswa Baru</h1>
+  </div>
+
+
+  <!-- main -->
+  <div class="main">
+
+    <form action="/action_page.php">
+
+      <div class="baris">
+        <div class="judul">
+          <label for="npm">NPM (Nomor Pokok Mahasiswa)</label>
+        </div>
+        <div class="isi">
+          <input type="text" id="npm">
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="name">Nama Lengkap</label>
+        </div>
+        <div class="isi">
+          <input type="text" id="name">
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="alamat">Alamat</label>
+        </div>
+        <div class="isi">
+          <textarea id="alamat"></textarea>
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label>Jenis Kelamin</label>
+        </div>
+        <div class="isi">
+          <label class="container">Laki-Laki
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Perempuan
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          </label>
+        </div>
+      </div>
+
+      <div class="baris">
+        <div class="judul">
+          <label for="prodi">Program Studi</label>
+        </div>
+        <div class="isi">
+          <select id="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+          </select>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="baris">
+        <button>Tambah</button>
+      </div>
+
+    </form>
+
+  </div>
+</body>
+
+</html>
